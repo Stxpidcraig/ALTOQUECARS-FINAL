@@ -26,7 +26,7 @@ class HomeVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        imgLogo.image = UIImage(named: "logo")
+        imgLogo.image = UIImage(named: "logo-blanco")
         lblBienvenido.text = "BIENVENIDO \(nombre ?? "USUARIO")"
 
         tableView.delegate = self
